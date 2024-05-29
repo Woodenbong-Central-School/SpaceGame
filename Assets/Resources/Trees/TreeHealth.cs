@@ -27,5 +27,6 @@ public class TreeHealth : MonoBehaviour
         Debug.Log("hi i am groot");
         TakeDamage(2);
         Debug.Log("TREE HEALTH: " + health.ToString());
+        BroadcastMessage("SetMeterPercent", health);
     }
 }
