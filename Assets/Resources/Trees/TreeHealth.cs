@@ -9,7 +9,7 @@ public class TreeHealth : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        health = 100;
+        health = maxHealth;
     }
 
     // Update is called once per frame
